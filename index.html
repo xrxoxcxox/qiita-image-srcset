@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Qiita image srcset</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Qiita image srcset</h1>
+      <img
+        src="./assets/1080.png"
+        srcset="
+          ./assets/360.png   360w,
+          ./assets/720.png   720w,
+          ./assets/1080.png 1080w
+        "
+        width="1"
+        height="1"
+        alt=""
+      />
+    </div>
+  </body>
+</html>
